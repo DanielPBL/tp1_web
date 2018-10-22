@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+@font-face {
+    font-family: 'SansForgetica';
+    src: url('fonts/SansForgetica-Regular.otf');
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+main {
+    margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.hidden {
+    display: none;
+}
+
+.logo {
+    font-family: 'SansForgetica', 'Dosis', sans-serif;
+    font-size: 18pt;
+}
+
+#map, #directionsPanel {
+    height: 500px;
+}
+
+#directionsPanel {
+    overflow-y: auto;
+}
+
+blockquote {
+    -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+    margin: 1.5em;
+    padding: .75em .5em .75em 1em;
+    background: #fff;
+    border-left: 0.5em solid #DDD;
+    text-align: justify;
+}
+
+blockquote:before {
+    display: block;
+    height: 0;
+    content: "“";
+    margin-left: -.95em;
+    font: italic 400%/1 Cochin,Georgia,"Times New Roman", serif;
+    color: #999;
+}
+
+blockquote footer {
+    margin-bottom: 0;
+}
+
+p, blockquote, footer {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.media img {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    blockquote.col-md-6 {
+        -ms-flex: 0 0 45%;
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+}
+
+.grafico {
+    height: 500px;
+}
