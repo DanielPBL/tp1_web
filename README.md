@@ -16,4 +16,4 @@ Trabalho entregue para a disciplina TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE
     * Foi incorporada a [Weather API](https://openweathermap.org/api) para obter a temperatura e o fenômeno metereológico da minha localização durante o dia. Uma frase personalizada é mostrada para cada fênomeno da API.
 
 ## Penalidades
-Não foram utilizadas bibliotecas que acaretem em penalidades.
+Não foram utilizadas bibliotecas que acarretem em penalidades.
