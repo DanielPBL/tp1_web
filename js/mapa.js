@@ -142,8 +142,8 @@ function getWeatherInfo(lat, lon, callback) {
 function initMap() {
     let infoWindow = new google.maps.InfoWindow();
     let bounds = new google.maps.LatLngBounds();
-    var directionsService = new google.maps.DirectionsService();
-    var directionsDisplay = new google.maps.DirectionsRenderer();
+    let directionsService = new google.maps.DirectionsService();
+    let directionsDisplay = new google.maps.DirectionsRenderer();
     
     const map = new google.maps.Map(document.getElementById('map'));
     directionsDisplay.setMap(map);
